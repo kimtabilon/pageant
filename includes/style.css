@@ -413,6 +413,7 @@ li a:hover {
 }
 
 .textfield {
+
 	width:60px;
 	height:25px;
 	text-align:center;
@@ -438,6 +439,18 @@ li a:hover {
 		 -o-transform: scale(1.5);
 			transform: scale(1.5);
 }
+
+    /* WebKit browsers */
+input::-webkit-input-placeholder { color:transparent; }
+
+    /* Mozilla Firefox 4 to 18 */
+input:-moz-placeholder { color:transparent; }
+
+    /* Mozilla Firefox 19+ */
+input::-moz-placeholder { color:transparent; }
+
+    /* Internet Explorer 10+ */
+input:-ms-input-placeholder { color:transparent; }
 
 th{
 	color:#FFF;	
