@@ -19,7 +19,7 @@
             echo "<tr><td align='center'><em>Male</em></td></tr>";
         }
         if ($i>$canNumMs) {
-            $i2 = $i-$canNumMs;
+            // $i2 = $i-$canNumMs;
         }
         ?>
     <tr>

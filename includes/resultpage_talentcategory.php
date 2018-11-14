@@ -81,7 +81,7 @@ echo "<h2>Talent Competition</h2><br>";
 	for($i=$canNumMs+1; $i<=$canNumMs+$canNumMr; $i++){ 
 		$i2 = $i;
         if ($i>$canNumMs) {
-            $i2 = $i-$canNumMs;
+            // $i2 = $i-$canNumMs;
         }
 	?>
     <tr>

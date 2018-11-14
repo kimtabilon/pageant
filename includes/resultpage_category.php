@@ -79,7 +79,7 @@
         for ($a=$canNumMs+1; $a<=$canNumMs+$canNumMr; $a++) { 
         	$a2 = $a;
 	        if ($a>$canNumMs) {
-	            $a2 = $a-$canNumMs;
+	            // $a2 = $a-$canNumMs;
 	        }
         	?>
     <tr>

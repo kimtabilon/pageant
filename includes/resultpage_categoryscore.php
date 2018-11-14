@@ -50,7 +50,7 @@
 	for($i=$canNumMs+1; $i<=$canNumMs+$canNumMr; $i++){
 		$i2 = $i;
         if ($i>$canNumMs) {
-            $i2 = $i-$canNumMs;
+            // $i2 = $i-$canNumMs;
         }
 	for($jn=1; $jn<=$judge; $jn++){ $j{$jn} = score($_GET['category_score'], $jn, $i, "save_result"); }
 	?>
